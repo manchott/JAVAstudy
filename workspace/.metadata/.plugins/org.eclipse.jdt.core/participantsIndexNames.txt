@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\multicampus\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\599057809.index
+\Back03_JSP\src
+C:\Users\multicampus\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2268494670.index
+\Back03_JSP\src
+C:\Users\multicampus\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2542618527.index
+\Baco04_Cookie_Session\src
+C:\Users\multicampus\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\101301709.index
+\Back03_JSP\src

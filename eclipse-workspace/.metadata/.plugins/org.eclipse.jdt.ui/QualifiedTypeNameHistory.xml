@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="class03.StudentManager"/>
+<fullyQualifiedTypeName name="com.ssafy.polymorphism2.SuperClass"/>
+<fullyQualifiedTypeName name="com.ssafy.polymorphism2.SubClass"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.ssafy.polymorphism2.UserInfo"/>
+<fullyQualifiedTypeName name="com.ssafy.abstractclass2.JFoodChef"/>
+<fullyQualifiedTypeName name="com.ssafy.abstractclass2.KFoodChef"/>
+<fullyQualifiedTypeName name="com.ssafy.abstractclass2.Chef"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.ssafy.interface3.IStudentManager"/>
+<fullyQualifiedTypeName name="com.ssafy.generic.ClassName"/>
+<fullyQualifiedTypeName name="com.ssafy.generic.GenericBox"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+</qualifiedTypeNameHistroy>

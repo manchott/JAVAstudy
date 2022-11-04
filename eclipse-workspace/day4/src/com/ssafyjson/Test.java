@@ -1,0 +1,50 @@
+package com.ssafyjson;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.google.gson.Gson;
+
+class Message {
+	private String sendId;
+	private String recvId;
+	public Message(String sendId, String recvId) {
+		this.sendId = sendId;
+		this.recvId = recvId;
+	}
+	@Override
+	public String toString() {
+		return "Message [sendId=" + sendId + ", recvId=" + recvId + "]";
+	}
+	
+	
+}
+
+
+public class Test {
+	public static void main(String[] args) {
+		Message msg = new Message("Kim", "Lee");
+		
+		Gson gson = new Gson();
+		// °´Ã¼ -> Json
+		String jsonMsg = gson.toJson(msg);
+		System.out.println(jsonMsg);
+		//Json -> °´Ã¼
+		Message msg2 = gson.fromJson(jsonMsg, Message.class);
+		System.out.println(msg2);
+		
+		
+		Map<String, Object> map = new HashMap<>();
+		map.put("id", "ID");
+		map.put("age", 65);
+		// map -> JSON
+		String jsonMap = gson.toJson(map);
+		System.out.println(jsonMap);
+		// Json -> map
+		Map<String, Object> map2 = gson.fromJson(jsonMap, Map.class);
+		System.out.println(map2);
+		
+		
+	}
+
+}

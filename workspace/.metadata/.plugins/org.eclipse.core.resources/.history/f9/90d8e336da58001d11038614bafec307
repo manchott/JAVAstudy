@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<label>이름: </label>
+		<input type="text" placeholder="이름을입력하세요"> <br>
+		<label>나이: </label>
+		<input type="number" min="0" placeholder="이름을입력하세요"> <br>
+		<label for="man">남자</label>
+		<input type="radio" name="gender"> <br>
+		<label >여자</label>
+		<input type="radio" name="gender"> <br>
+		
+		<input type="submit">
+	</form>
+</body>
+</html>

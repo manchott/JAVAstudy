@@ -1,0 +1,15 @@
+package com.ssafy.dto;
+
+public class Person {
+	private String name;
+	private int age;
+	private string gender;
+	private String[] hobbies;
+	
+	public Person() {
+		
+	}
+	
+	
+
+}

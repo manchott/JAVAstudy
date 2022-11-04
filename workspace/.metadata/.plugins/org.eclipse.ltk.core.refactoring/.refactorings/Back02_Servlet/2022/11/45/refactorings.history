@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.ssafy.dto&apos; to &apos;Back03_JSP/src&apos;&#x0D;&#x0A;- Original project: &apos;Back02_Servlet&apos;&#x0D;&#x0A;- Destination element: &apos;Back03_JSP/src&apos;&#x0D;&#x0A;- Original element: &apos;Back02_Servlet/src/com.ssafy.dto&apos;" description="Copy package" destination="=Back03_JSP/src" element1="/src&lt;com.ssafy.dto" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1667353073324" version="1.0"/>
+</session>

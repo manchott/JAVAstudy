@@ -1,0 +1,36 @@
+package com.ssafyjson;
+
+import com.google.gson.Gson;
+
+class Message {
+	private String sendId;
+	private String recvId;
+	public Message(String sendId, String recvId) {
+		this.sendId = sendId;
+		this.recvId = recvId;
+	}
+	@Override
+	public String toString() {
+		return "Message [sendId=" + sendId + ", recvId=" + recvId + "]";
+	}
+	
+	
+}
+
+
+public class Test {
+	public static void main(String[] args) {
+		Message msg = new Message("Kim", "Lee");
+		
+		Gson gson = new Gson();
+		// °´Ã¼ -> Json
+		String jsonMsg = gson.toJson(msg);
+		System.out.println(jsonMsg);
+		
+		Message msg2 = gson.fromJson(jsonMsg, Message.class);
+		System.out.println(msg2);
+		
+		
+	}
+
+}
